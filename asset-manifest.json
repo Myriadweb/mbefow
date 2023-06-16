@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mbefow/static/css/main.2ec4a507.css",
-    "main.js": "/mbefow/static/js/main.fe4e3874.js",
+    "main.js": "/mbefow/static/js/main.7936c272.js",
     "static/media/MBE_FOW_card.png": "/mbefow/static/media/MBE_FOW_card.5878bd58fad075381766.png",
     "static/media/MBE_FOW_03Bowman_C.jpg": "/mbefow/static/media/MBE_FOW_03Bowman_C.93e706ad8867c7ba43bb.jpg",
     "static/media/MBE_FOW_12Bowman_C.jpg": "/mbefow/static/media/MBE_FOW_12Bowman_C.cc7be7791296f2eeda4b.jpg",
@@ -98,10 +98,10 @@
     "static/media/Frutiger_Roman.ttf": "/mbefow/static/media/Frutiger_Roman.f13468548dc6d4cb5025.ttf",
     "index.html": "/mbefow/index.html",
     "main.2ec4a507.css.map": "/mbefow/static/css/main.2ec4a507.css.map",
-    "main.fe4e3874.js.map": "/mbefow/static/js/main.fe4e3874.js.map"
+    "main.7936c272.js.map": "/mbefow/static/js/main.7936c272.js.map"
   },
   "entrypoints": [
     "static/css/main.2ec4a507.css",
-    "static/js/main.fe4e3874.js"
+    "static/js/main.7936c272.js"
   ]
 }
