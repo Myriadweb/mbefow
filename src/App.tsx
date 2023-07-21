@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {Routes, Route, Link, useLocation} from 'react-router-dom';
 import logo from './logo.svg';
 import { rootPath, CategoriesContext } from "./config";
@@ -10,6 +10,9 @@ import WorkerBio from "./components/WorkerBio";
 import Button from "react-bootstrap/Button";
 import {CSSTransition, TransitionGroup} from "react-transition-group";
 function App() {
+  useEffect(() => {
+    document.title = "Family of Workers";
+  })
   const [ workerListCategory, setWorkerListCategory ] = React.useState(0);
   let location = useLocation();
   const nodeRef = React.useRef(null);
