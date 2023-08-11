@@ -9,6 +9,7 @@ import Slideshow from "./components/Slideshow";
 import WorkerBio from "./components/WorkerBio";
 import Button from "react-bootstrap/Button";
 import {CSSTransition, TransitionGroup} from "react-transition-group";
+import ReactPlayer from "react-player";
 function App() {
   useEffect(() => {
     document.title = "Family of Workers";
@@ -22,7 +23,7 @@ function App() {
         <TransitionGroup>
           <CSSTransition key={location.pathname} classNames="fade" timeout={300}>
             <Routes>
-              <Route path={rootPath} element={<Splash />} />
+              <Route path={rootPath} element={<Splash2 />} />
               <Route path={`${rootPath}/home`} element={<Home />} />
               <Route path={`${rootPath}/worker/:id`} element={<WorkerBio />} />
             </Routes>
@@ -45,6 +46,14 @@ function Splash() {
       <Slideshow />
     </div>
   );
+}
+
+function Splash2() {
+  return (
+    <Link to={`${rootPath}/home`}>
+      <ReactPlayer url={require('../src/assets/fow_intro.webm')} playing={true} muted={true} loop={true} controls={false} height={1080} width={1920} />
+    </Link>
+  )
 }
 
 export default App;

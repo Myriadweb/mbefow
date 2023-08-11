@@ -40,7 +40,7 @@ const WorkersListByCategory = (props) => {
   return (
     <div>
       <div className="Intro">{workerListCategories[props.category].intro}</div>
-      <div className="WorkerList">
+      <div className={`WorkerList Category${props.category}`}>
         {workersData.filter((worker) => worker.CATEGORY === workerListCategories[props.category].name).map((worker) => (
           <CSSTransition key={worker.ID} classNames="item" timeout={500}>
             <div key={worker.ID} className="WorkerItem">

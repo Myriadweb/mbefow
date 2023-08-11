@@ -8,6 +8,7 @@ function WorkerList(props) {
   console.log(props.category)
   const workerListCategories = ['Kitchen Staff & Housekeeping', 'House & Grounds', 'Secretaries & Metaphysical Workers'];
   const workersDataFiltered = workersData.filter((worker) => worker.CATEGORY === workerListCategories[props.category]);
+
   return (
     <div className="WorkerList">
       {workersDataFiltered.map((worker) => (

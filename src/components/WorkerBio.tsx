@@ -102,7 +102,7 @@ function WorkerBio(props) {
           </div>
           <div className={showKidsFacts ? "acorn-popup active" : "acorn-popup"} onClick={() => setShowKidsFacts(false)}>
             <div className="close"></div>
-            {kidsFacts}
+            <div dangerouslySetInnerHTML={{__html: kidsFacts}}></div>
           </div>
         </>
       )}
