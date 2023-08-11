@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/mbefow/static/css/main.1d5a02b3.css",
-    "main.js": "/mbefow/static/js/main.e6f38e80.js",
+    "main.css": "/mbefow/static/css/main.dc8084e3.css",
+    "main.js": "/mbefow/static/js/main.40ba1cac.js",
+    "static/media/fow_intro.webm": "/mbefow/static/media/fow_intro.6beb72733363d8efe079.webm",
     "static/media/MBE_popup-bkgd.png": "/mbefow/static/media/MBE_popup-bkgd.803549eae193ec0abb19.png",
     "static/media/MBE_FOW_card.png": "/mbefow/static/media/MBE_FOW_card.5878bd58fad075381766.png",
     "static/media/MBE_FOW_03Bowman_C.jpg": "/mbefow/static/media/MBE_FOW_03Bowman_C.93e706ad8867c7ba43bb.jpg",
@@ -98,11 +99,11 @@
     "static/media/Frutiger_Condensed.ttf": "/mbefow/static/media/Frutiger_Condensed.4cf8ef33ea7d9d5bd676.ttf",
     "static/media/Frutiger_Roman.ttf": "/mbefow/static/media/Frutiger_Roman.f13468548dc6d4cb5025.ttf",
     "index.html": "/mbefow/index.html",
-    "main.1d5a02b3.css.map": "/mbefow/static/css/main.1d5a02b3.css.map",
-    "main.e6f38e80.js.map": "/mbefow/static/js/main.e6f38e80.js.map"
+    "main.dc8084e3.css.map": "/mbefow/static/css/main.dc8084e3.css.map",
+    "main.40ba1cac.js.map": "/mbefow/static/js/main.40ba1cac.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d5a02b3.css",
-    "static/js/main.e6f38e80.js"
+    "static/css/main.dc8084e3.css",
+    "static/js/main.40ba1cac.js"
   ]
 }
