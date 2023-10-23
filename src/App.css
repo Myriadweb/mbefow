@@ -235,7 +235,7 @@
   font-family: "Frutiger Condensed Bold", sans-serif;
   font-size: 22px;
   color: #2a1c14;
-  width: 100px;
+  width: 105px;
   text-align: center;
   margin: 0 75px
 }
@@ -301,13 +301,13 @@
   white-space: pre-line;
 }
 
-.CardBio:first-letter {
+.CardBio::first-letter {
   font-size: 100px;
   color: #30647e;
   padding-right: 10px;
   margin-top: 10px;
   float: left;
-  line-height: 0.7;
+  line-height: 0.9;
 }
 
 .App-logo {
@@ -378,7 +378,7 @@
   margin: 0 auto;
   padding: 10px 0;
 }
-.modal-body .Copyright {
+.modal-body .Credit {
   font-size: 16px;
   display: block;
   margin-top: 10px;
@@ -401,7 +401,12 @@
 }
 .acorn.active {
   background-color: #d59132;
-  box-shadow: white 0 0 10px;
+  &:not(.popup) {
+    animation: pulse 4s infinite;
+  }
+  &.popup {
+    box-shadow: 0 0 20px 5px white;
+  }
 }
 
 .acorn-popup {
@@ -478,5 +483,20 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 white;
+  }
+  50% {
+    box-shadow: 0 0 20px 5px white;
+  }
+  95% {
+    box-shadow: 0 0 1px 0 white;
+  }
+  100% {
+    box-shadow: 0 0 0 0 white;
   }
 }

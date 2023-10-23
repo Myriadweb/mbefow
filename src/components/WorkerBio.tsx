@@ -20,10 +20,13 @@ function WorkerBio(props) {
   const portrait = require(`../assets/images/portraits/${selectedWorker?.PORTRAIT}`);
   const image1 = require(`../assets/images/popups/${selectedWorker?.IMAGE_1}`);
   const caption1 : string | TrustedHTML = selectedWorker?.CAPTION_1!;
+  const credit1 = selectedWorker?.CREDIT_1;
   const image2 = require(`../assets/images/popups/${selectedWorker?.IMAGE_2}`);
   const caption2 : string | TrustedHTML = selectedWorker?.CAPTION_2!;
+  const credit2 = selectedWorker?.CREDIT_2;
   const image3 = require(`../assets/images/popups/${selectedWorker?.IMAGE_3}`);
   const caption3 : string | TrustedHTML = selectedWorker?.CAPTION_3!;
+  const credit3 = selectedWorker?.CREDIT_3;
   const [showImg1, setShowImg1] = React.useState(false);
   const [showImg2, setShowImg2] = React.useState(false);
   const [showImg3, setShowImg3] = React.useState(false);
@@ -66,7 +69,7 @@ function WorkerBio(props) {
           <Modal.Body>
             <img src={image1} alt={caption1} />
             <div className="Caption" dangerouslySetInnerHTML={{__html: caption1}}></div>
-            <div className="Copyright">@ Private collection.</div>
+            <div className="Credit">{credit1}</div>
           </Modal.Body>
         </Modal>
         <Modal show={showImg2} onHide={() => setShowImg2(false)} size="xl">
@@ -75,7 +78,7 @@ function WorkerBio(props) {
           <Modal.Body>
             <img src={image2} alt={caption2} />
             <div className="Caption" dangerouslySetInnerHTML={{__html: caption2}}></div>
-            <div className="Copyright">@ Private collection.</div>
+            <div className="Credit">{credit2}</div>
           </Modal.Body>
         </Modal>
         <Modal show={showImg3} onHide={() => setShowImg3(false)} size="xl">
@@ -84,7 +87,7 @@ function WorkerBio(props) {
           <Modal.Body>
             <img src={image3} alt={caption3} />
             <div className="Caption" dangerouslySetInnerHTML={{__html: caption3}}></div>
-            <span className="Copyright">@ Private collection.</span>
+            <span className="Credit">{credit3}</span>
           </Modal.Body>
         </Modal>
       </div>
@@ -94,10 +97,15 @@ function WorkerBio(props) {
             <Link to={`${rootPath}/worker/${nextWorker.ID}`} onClick={() => setShowKidsFacts(false)}>{nextWorker.NAME}</Link>
           </div>
         )}
+        {!nextWorker && (
+          <div className="Next">
+            <Link to={`${rootPath}/home`}>Back to Main Menu</Link>
+          </div>
+        )}
       </div>
       {kidsFacts && (
         <>
-          <div className="acorn active" onClick={() => setShowKidsFacts(true)}>
+          <div className={showKidsFacts ? "acorn active popup" : "acorn active"} onClick={() => setShowKidsFacts(true)}>
             <img src={require('../assets/images/MBE_acorn.png')} alt="acorn" />
           </div>
           <div className={showKidsFacts ? "acorn-popup active" : "acorn-popup"} onClick={() => setShowKidsFacts(false)}>

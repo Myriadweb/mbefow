@@ -35,7 +35,7 @@ const WorkersListByCategory = (props) => {
   const workerListCategories = [
     {id: 0, name: 'Kitchen Staff & Housekeeping', intro: 'These women rose early to do all the cleaning, shopping, cooking, sewing, and laundry (sometimes with day-worker help) for an average of 20 household members.'},
     {id: 1, name: 'House & Grounds', intro: 'These men handled repairs, kept the house in good working order, and took care of the gardens, carriages, and automobiles.'},
-    {id: 2, name: 'Secretaries & Metaphysical Workers', intro: 'Secretaries helped with Mrs. Eddy’s correspondence, communications, and calendar. Metaphysical workers set aside dedicated time to pray about specific issues at Mrs. Eddy’s direction. For some individuals these jobs overlapped.'}
+    {id: 2, name: 'Secretaries & Metaphysical Workers', intro: 'Secretaries helped with Mrs. Eddy’s correspondence, communications, and calendar. Metaphysical workers set aside dedicated time to pray about specific issues at Mrs. Eddy’s direction. For some individuals, these jobs overlapped.'}
   ]
   return (
     <div>
