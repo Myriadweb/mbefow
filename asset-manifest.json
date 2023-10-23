@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/mbefow/static/css/main.dc8084e3.css",
-    "main.js": "/mbefow/static/js/main.40ba1cac.js",
+    "main.css": "/mbefow/static/css/main.db552676.css",
+    "main.js": "/mbefow/static/js/main.12586e5a.js",
     "static/media/fow_intro.webm": "/mbefow/static/media/fow_intro.6beb72733363d8efe079.webm",
     "static/media/MBE_popup-bkgd.png": "/mbefow/static/media/MBE_popup-bkgd.803549eae193ec0abb19.png",
     "static/media/MBE_FOW_card.png": "/mbefow/static/media/MBE_FOW_card.5878bd58fad075381766.png",
-    "static/media/MBE_FOW_03Bowman_C.jpg": "/mbefow/static/media/MBE_FOW_03Bowman_C.93e706ad8867c7ba43bb.jpg",
+    "static/media/MBE_FOW_03Bowman_C.jpg": "/mbefow/static/media/MBE_FOW_03Bowman_C.4ccf5ce65c95784139c0.jpg",
     "static/media/MBE_FOW_12Bowman_C.jpg": "/mbefow/static/media/MBE_FOW_12Bowman_C.cc7be7791296f2eeda4b.jpg",
     "static/media/MBE_FOW_04Kelly_A.jpg": "/mbefow/static/media/MBE_FOW_04Kelly_A.98896026ee813c8f2e65.jpg",
     "static/media/MBE_FOW_19Hoag_B.jpg": "/mbefow/static/media/MBE_FOW_19Hoag_B.84ffd56f4c07c99a25ef.jpg",
@@ -19,10 +19,10 @@
     "static/media/MBE_FOW_21Sargent_C.jpg": "/mbefow/static/media/MBE_FOW_21Sargent_C.9bea3caece73cfd1aed4.jpg",
     "static/media/MBE_FOW_07Macdonald_A.jpg": "/mbefow/static/media/MBE_FOW_07Macdonald_A.4614b4c1da0a480613c5.jpg",
     "static/media/MBE_FOW_02Machacek_C.jpg": "/mbefow/static/media/MBE_FOW_02Machacek_C.42618c805a3ecb3f751a.jpg",
+    "static/media/MBE_FOW_15Dickey_A.jpg": "/mbefow/static/media/MBE_FOW_15Dickey_A.68be7d013b6e8fb39da4.jpg",
     "static/media/MBE_FOW_06Retterer_A.jpg": "/mbefow/static/media/MBE_FOW_06Retterer_A.72c938df0e3e0a4d1f05.jpg",
     "static/media/MBE_FOW_10Weygandt_A.jpg": "/mbefow/static/media/MBE_FOW_10Weygandt_A.948619dfb192664c3628.jpg",
     "static/media/MBE_FOW_17Tomlinson_C.jpg": "/mbefow/static/media/MBE_FOW_17Tomlinson_C.68b7c9293c5e629b9580.jpg",
-    "static/media/MBE_FOW_15Dickey_A.jpg": "/mbefow/static/media/MBE_FOW_15Dickey_A.7c718841c928ec416bbb.jpg",
     "static/media/MBE_FOW_17Tomlinson_A.jpg": "/mbefow/static/media/MBE_FOW_17Tomlinson_A.c456646a30ffefcafc2d.jpg",
     "static/media/MBE_FOW_03Bowman_B.jpg": "/mbefow/static/media/MBE_FOW_03Bowman_B.f84777084f62a50cade0.jpg",
     "static/media/MBE_FOW_14Irving_A.jpg": "/mbefow/static/media/MBE_FOW_14Irving_A.8a029e5fa8c1b410ace0.jpg",
@@ -39,6 +39,7 @@
     "static/media/MBE_FOW_15Dickey_C.jpg": "/mbefow/static/media/MBE_FOW_15Dickey_C.c4a32878e0636e5beb76.jpg",
     "static/media/MBE_FOW_18WRathvon_A.jpg": "/mbefow/static/media/MBE_FOW_18WRathvon_A.05f30ba3fc5bddd2b10f.jpg",
     "static/media/MBE_FOW_13Salchow_B.jpg": "/mbefow/static/media/MBE_FOW_13Salchow_B.3a2af6c6dca04d0a83bb.jpg",
+    "static/media/MBE_FOW_18WRathvon_C.jpg": "/mbefow/static/media/MBE_FOW_18WRathvon_C.bf2ae9dd4949d870738a.jpg",
     "static/media/MBE_FOW_16Frye_B.jpg": "/mbefow/static/media/MBE_FOW_16Frye_B.49cd3240544555e9cf3f.jpg",
     "static/media/MBE_FOW_10Weygandt_B.jpg": "/mbefow/static/media/MBE_FOW_10Weygandt_B.2e110b5e5f00d3164db8.jpg",
     "static/media/MBE_FOW_09Scott_A.jpg": "/mbefow/static/media/MBE_FOW_09Scott_A.e026d3a567c82676a900.jpg",
@@ -49,7 +50,6 @@
     "static/media/MBE_FOW_01Still_B.jpg": "/mbefow/static/media/MBE_FOW_01Still_B.398206ffd8040ec477cd.jpg",
     "static/media/MBE_FOW_08Wilcox_A.jpg": "/mbefow/static/media/MBE_FOW_08Wilcox_A.b6f3962aaa6136daf844.jpg",
     "static/media/MBE_FOW_11Eveleth_A.jpg": "/mbefow/static/media/MBE_FOW_11Eveleth_A.0a3b381c87a4245654b1.jpg",
-    "static/media/MBE_FOW_18WRathvon_C.jpg": "/mbefow/static/media/MBE_FOW_18WRathvon_C.072f425ce2cfbd65d01d.jpg",
     "static/media/MBE_FOW_03Bowman_A.jpg": "/mbefow/static/media/MBE_FOW_03Bowman_A.5f1001c59b98cc07d584.jpg",
     "static/media/MBE_FOW_11Eveleth_C.jpg": "/mbefow/static/media/MBE_FOW_11Eveleth_C.afaeb96cf2942c6e9123.jpg",
     "static/media/MBE_FOW_14Irving_B.jpg": "/mbefow/static/media/MBE_FOW_14Irving_B.a421374638a1c1fcd50b.jpg",
@@ -59,7 +59,7 @@
     "static/media/MBE_FOW_19Hoag_A.jpg": "/mbefow/static/media/MBE_FOW_19Hoag_A.57a9b69a332476e0a15b.jpg",
     "static/media/MBE_FOW_13Salchow_A.jpg": "/mbefow/static/media/MBE_FOW_13Salchow_A.d06e8815d690f38fc0f6.jpg",
     "static/media/MBE_FOW_06Retterer_B.jpg": "/mbefow/static/media/MBE_FOW_06Retterer_B.984b28a3c7e881fb5442.jpg",
-    "static/media/MBE_FOW_17Tomlinson_B.jpg": "/mbefow/static/media/MBE_FOW_17Tomlinson_B.09eb809845fef2457290.jpg",
+    "static/media/MBE_FOW_17Tomlinson_B.jpg": "/mbefow/static/media/MBE_FOW_17Tomlinson_B.06fcc36708905d2cc1fe.jpg",
     "static/media/MBE_FOW_02Machacek_B.jpg": "/mbefow/static/media/MBE_FOW_02Machacek_B.868e773896fd5f0c9281.jpg",
     "static/media/MBE_FOW_10Weygandt_C.jpg": "/mbefow/static/media/MBE_FOW_10Weygandt_C.d2f4ec1f9e37fde7cb88.jpg",
     "static/media/MBE_FOW_09Scott_C.jpg": "/mbefow/static/media/MBE_FOW_09Scott_C.626d4db602cbeb2d4044.jpg",
@@ -99,11 +99,11 @@
     "static/media/Frutiger_Condensed.ttf": "/mbefow/static/media/Frutiger_Condensed.4cf8ef33ea7d9d5bd676.ttf",
     "static/media/Frutiger_Roman.ttf": "/mbefow/static/media/Frutiger_Roman.f13468548dc6d4cb5025.ttf",
     "index.html": "/mbefow/index.html",
-    "main.dc8084e3.css.map": "/mbefow/static/css/main.dc8084e3.css.map",
-    "main.40ba1cac.js.map": "/mbefow/static/js/main.40ba1cac.js.map"
+    "main.db552676.css.map": "/mbefow/static/css/main.db552676.css.map",
+    "main.12586e5a.js.map": "/mbefow/static/js/main.12586e5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc8084e3.css",
-    "static/js/main.40ba1cac.js"
+    "static/css/main.db552676.css",
+    "static/js/main.12586e5a.js"
   ]
 }
