@@ -305,9 +305,9 @@
   font-size: 100px;
   color: #30647e;
   padding-right: 10px;
-  margin-top: 10px;
+  margin-top: 50px;
   float: left;
-  line-height: 0.9;
+  line-height: 0.1;
 }
 
 .App-logo {
