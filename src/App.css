@@ -33,6 +33,18 @@
   font-style: normal;
   font-weight: bold;
 }
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
   background-image: url('assets/images/MBE_FOW_bkgd.jpg');
@@ -48,6 +60,7 @@
 
 .Container {
   padding: 100px;
+  min-height: 1080px;
 }
 .ButtonContainer {
   display: flex;
@@ -229,6 +242,7 @@
   margin-bottom: 50px;
   margin-top: 120px;
   align-items: center;
+  min-height: 910px;
 }
 
 .BioNav {
@@ -349,6 +363,7 @@
   background: url('assets/images/MBE_popup-bkgd.png');
   background-size: cover;
   padding: 20px;
+  border: none;
 }
 .modal-header {
   border: none;
