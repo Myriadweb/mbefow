@@ -108,6 +108,7 @@ function WorkerBio(props) {
           <div className={showKidsFacts ? "acorn active popup" : "acorn active"} onClick={() => setShowKidsFacts(true)}>
             <img src={require('../assets/images/MBE_acorn.png')} alt="acorn" />
           </div>
+          <div className={showKidsFacts ? "acorn-screen active" : "acorn-screen"} onClick={() => setShowKidsFacts(false)}></div>
           <div className={showKidsFacts ? "acorn-popup active" : "acorn-popup"} onClick={() => setShowKidsFacts(false)}>
             <div className="close"></div>
             <div dangerouslySetInnerHTML={{__html: kidsFacts}}></div>
