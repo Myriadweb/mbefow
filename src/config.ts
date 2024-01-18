@@ -1,6 +1,6 @@
 import React from "react";
 
-export const rootPath = '/mbefow';
+export const rootPath = '';
 
 export var currentCategory = 0;
 
