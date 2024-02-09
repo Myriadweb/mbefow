@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import {Routes, Route, Link, useLocation} from 'react-router-dom';
+import {Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
 import logo from './logo.svg';
 import { rootPath, CategoriesContext } from "./config";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,8 +17,20 @@ function App() {
   const [ workerListCategory, setWorkerListCategory ] = React.useState(0);
   let location = useLocation();
   const nodeRef = React.useRef(null);
+  const timeoutRef = React.useRef(null);
+  const navigate = useNavigate();
+  const TIME_TO_SPLASH = 120000;
+  const handleResetTimeout = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    // @ts-ignore
+    timeoutRef.current = setTimeout(() => {
+      navigate(rootPath);
+    }, TIME_TO_SPLASH);
+  };
   return (
-    <div className="App">
+    <div className="App" onClick={() => handleResetTimeout()}>
       <CategoriesContext.Provider value={{ workerListCategory, setWorkerListCategory }}>
         <TransitionGroup>
           <CSSTransition key={location.pathname} classNames="fade" timeout={300}>
