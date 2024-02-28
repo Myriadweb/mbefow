@@ -53,21 +53,21 @@ function WorkerBio(props) {
           </div>
           <div className="CardBody">
             <div className="CardPortrait">
-              <img src={portrait} alt={selectedWorker?.NAME} />
+              <img src={portrait} alt={selectedWorker?.NAME} draggable="false" />
             </div>
             <div className="CardBio" dangerouslySetInnerHTML={{__html: biography}}></div>
           </div>
         </div>
         <div className="Popups">
-          <img src={image1} alt={caption1} onClick={() => setShowImg1(true)} />
-          <img src={image2} alt={caption2} onClick={() => setShowImg2(true)} />
-          <img src={image3} alt={caption3} onClick={() => setShowImg3(true)} />
+          <img src={image1} alt={caption1} onClick={() => setShowImg1(true)} draggable="false" />
+          <img src={image2} alt={caption2} onClick={() => setShowImg2(true)} draggable="false" />
+          <img src={image3} alt={caption3} onClick={() => setShowImg3(true)} draggable="false" />
         </div>
         <Modal show={showImg1} onHide={() => setShowImg1(false)} size="xl">
           <Modal.Header closeButton>
           </Modal.Header>
           <Modal.Body>
-            <img src={image1} alt={caption1} />
+            <img src={image1} alt={caption1} draggable="false" />
             <div className="Caption" dangerouslySetInnerHTML={{__html: caption1}}></div>
             <div className="Credit">{credit1}</div>
           </Modal.Body>
@@ -76,7 +76,7 @@ function WorkerBio(props) {
           <Modal.Header closeButton>
           </Modal.Header>
           <Modal.Body>
-            <img src={image2} alt={caption2} />
+            <img src={image2} alt={caption2} draggable="false" />
             <div className="Caption" dangerouslySetInnerHTML={{__html: caption2}}></div>
             <div className="Credit">{credit2}</div>
           </Modal.Body>
@@ -85,11 +85,12 @@ function WorkerBio(props) {
           <Modal.Header closeButton>
           </Modal.Header>
           <Modal.Body>
-            <img src={image3} alt={caption3} />
+            <img src={image3} alt={caption3} draggable="false" />
             <div className="Caption" dangerouslySetInnerHTML={{__html: caption3}}></div>
             <span className="Credit">{credit3}</span>
           </Modal.Body>
         </Modal>
+        <div className="directions" style={{marginTop: 20}}>Touch an image to expand and learn more.</div>
       </div>
       <div className="BioNav">
         {nextWorker && (

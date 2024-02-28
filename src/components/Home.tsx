@@ -45,7 +45,7 @@ const WorkersListByCategory = (props) => {
           <CSSTransition key={worker.ID} classNames="item" timeout={500}>
             <div key={worker.ID} className="WorkerItem">
               <Link to={`${rootPath}/worker/${worker.ID}`} className="WorkerLink">
-                <img src={require(`../assets/images/portraits/${worker.PORTRAIT}`)} alt={worker?.NAME} />
+                <img src={require(`../assets/images/portraits/${worker.PORTRAIT}`)} alt={worker?.NAME} draggable="false" />
                 <div className="WorkerNameTag">{worker.NAME}</div>
               </Link>
             </div>

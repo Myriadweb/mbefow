@@ -59,7 +59,7 @@ body {
 
 .Container {
   padding: 100px;
-  min-height: 1080px;
+  max-height: 1080px;
 }
 .ButtonContainer {
   display: flex;
@@ -114,10 +114,15 @@ body {
   padding: 10px 0;
 
 }
-.CategoryButtons .btn.active, .CategoryButtons .btn:hover {
+.CategoryButtons .btn.active {
   background-color: #30647e;
   color: white;
   border: 2px solid #d59132;
+}
+.CategoryButtons .btn:not(.active):hover {
+  background-color: white;
+  color: #d59132;
+  border: 2px solid white;
 }
 
 .WorkerList {
@@ -229,6 +234,7 @@ body {
   height: auto;
   margin-right: 30px;
   border: 1px solid #2a1c14;
+  cursor: pointer;
 }
 .Popups img:last-child {
   margin-right: 0;
@@ -417,6 +423,7 @@ body {
 .acorn.active {
   background-color: #d59132;
   display: block;
+  cursor: pointer;
   &:not(.popup) {
     animation: pulse 4s infinite;
   }
