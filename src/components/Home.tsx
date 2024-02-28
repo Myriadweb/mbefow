@@ -44,7 +44,7 @@ const WorkersListByCategory = (props) => {
         {workersData.filter((worker) => worker.CATEGORY === workerListCategories[props.category].name).map((worker) => (
           <CSSTransition key={worker.ID} classNames="item" timeout={500}>
             <div key={worker.ID} className="WorkerItem">
-              <Link to={`${rootPath}/worker/${worker.ID}`} className="WorkerLink">
+              <Link to={`${rootPath}/worker/${worker.ID}`} className="WorkerLink" draggable="false">
                 <img src={require(`../assets/images/portraits/${worker.PORTRAIT}`)} alt={worker?.NAME} draggable="false" />
                 <div className="WorkerNameTag">{worker.NAME}</div>
               </Link>
