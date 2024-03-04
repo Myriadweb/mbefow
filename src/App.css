@@ -244,8 +244,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 50px;
-  margin-top: 120px;
+  padding-top: 120px;
   align-items: center;
   min-height: 910px;
 }
@@ -324,7 +323,7 @@ body {
   font-size: 100px;
   color: #30647e;
   padding-right: 10px;
-  margin-top: 38px;
+  margin-top: 32px;
   float: left;
   line-height: 0.3;
 }
